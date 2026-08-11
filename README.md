@@ -17,12 +17,12 @@ Many students enter ENES100 with little to no coding experience. This program br
 
 ##  Workshop Schedule
 
-**Virtual Days (Aug 11–14):**
+**Virtual Days (Aug 17–20):**
 -  9:00–9:10am — Icebreaker
 -  9:10–11:00am — Interactive Instruction & Demos
 -  11:00–12:00pm — Breakout Room Help & Coding Practice
 
-**In-Person (Optional) – Aug 15:**
+**In-Person (Optional) – Aug 21:**
 - Upload, test, and troubleshoot robot code together
 - Final demos and lunch!
 - Highly Recommended if you are in commuting distance!
