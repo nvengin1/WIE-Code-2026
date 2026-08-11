@@ -21,7 +21,7 @@ A personal account should not be required, but it is encouraged.
 
 We'll use Tinkercad to simulate code with a virtual Arduino, practice wiring, and model different circuits. 
 
-## Optional
+# Optional
 
 # GitHub Account Setup
 [Optional: Create a Github account here.](https://github.com/) 
