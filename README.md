@@ -1,4 +1,4 @@
-# WIE Arduino Coding Bootcamp – 2025
+# WIE Arduino Coding Bootcamp – 2026
 
 Welcome to the WIE Arduino Coding Bootcamp! This one-week hybrid workshop is designed to introduce freshmen to the basics of **programming, Arduino, and ENES100-relevant robotics tools**.
 
@@ -75,7 +75,7 @@ By the end of this bootcamp, you will:
 
 ##  Facilitator Contact Info
 
-**Friedrich Alvarez** – falvare2@umd.edu  
+**Anukool Joshi** – XX @umd.edu  
 **Natalie Venginickal** – nvengin1@terpmail.umd.edu  
 **Tabatha Cuadra Rodriguez (WIE Staff)** – tkcuadra@umd.edu  
 
