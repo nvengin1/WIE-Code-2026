@@ -269,18 +269,54 @@ String stringOne = String(stringTwo + " with more");  // concatenating two strin
 ```
 ---
 
-## 1.6 Very Basic Code Examples
+## 1.6 Very Basic Code Example
 
-### IF / ELSE
+### Full Example 
+
+Concepts used: Arrays, Strings, Functions, For Loops, If/Else Statements, and Serial Output.
+
 ```cpp
-int temp = 25;
+// Arrays store multiple values together
+int scores[] = {85, 72, 91, 65};
+String students[] = {"Alex", "Sam", "Jamie", "Taylor"};
 
-if (temp > 30) {
-  digitalWrite(13, HIGH); // LED ON
-} else {
-  digitalWrite(13, LOW);  // LED OFF
+// This function takes a student's name and score
+// and checks if they passed
+void checkScore(String name, int score) {
+
+  // If the score is 70 or higher, they passed
+  if (score >= 70) {
+    Serial.println(name + " passed!");
+  }
+  // Otherwise, they did not pass
+  else {
+    Serial.println(name + " did not pass.");
+  }
+}
+
+void setup() {
+  // Start the Serial Monitor so we can print messages
+  Serial.begin(9600);
+
+  // Loop through all 4 students, one at a time
+  for (int i = 0; i < 4; i++) {
+
+    // Use the function to check each student's score
+    checkScore(students[i], scores[i]);
+  }
+}
+
+void loop() {
+  // Empty because we only want the program to run once
 }
 ```
+
+### What Does This Code Do?
+
+This program stores the names and scores of four students using arrays. It uses a for loop to go through each student and sends their name and score to the checkScore() function.
+
+The function uses an if/else statement to check if the score is at least 70. If it is, the Serial Monitor prints that the student passed; otherwise, it prints that they did not pass.
+
 
 # 2. Loops — How to Write `for` and `while` (properly!)
 
