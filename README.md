@@ -75,7 +75,7 @@ By the end of this bootcamp, you will:
 
 ##  Facilitator Contact Info
 
-**Anukool Joshi** – ajoshi10@terpmail.umd.edu 
+**Anukool Joshi** – ajoshi10@terpmail.umd.edu  
 **Natalie Venginickal** – nvengin1@terpmail.umd.edu  
 **Tabatha Cuadra Rodriguez (WIE Staff)** – tkcuadra@umd.edu  
 
