@@ -146,7 +146,11 @@ Servos respond to **Pulse Width Modulation (PWM)** signals.
 - A pulse of ~1.5 ms → 90°  
 - A pulse of ~2 ms → 180°  
 The servo repeats this check about every 20 milliseconds.
+  
 
+<img width="240" height="229" alt="image" src="https://github.com/user-attachments/assets/43bc5bc8-55a9-4e01-83d5-e6da0c041972" />
+  
+  
 Manually generating these pulses is tricky. That’s why we use the **Servo library**, which handles the timing for us.
 
 ---
