@@ -669,9 +669,16 @@ Without a path to ground, the "water" has nowhere to go — your circuit won’t
 
 A breadboard is your prototyping playground.
 
+<img width="678" height="450" alt="image" src="https://github.com/user-attachments/assets/438ede90-fcc5-4b59-b570-529171ba4c37" />  
+
+
 - **Rows:** Horizontal power rails (`+` and `–`), often along the top and bottom, used to distribute 5V/3.3V and GND.
-- **Columns:** Groups of 5 holes connected vertically in the center area — components and jumper wires go here.
 - **Gap in the Middle:** Separates the left and right sides so you can plug in ICs or connect across with wires.
+
+
+<img width="544" height="268" alt="image" src="https://github.com/user-attachments/assets/de31e9e2-ff8a-4522-a763-da11f19377e8" />  
+
+- **Columns:** Groups of 5 holes connected vertically in the center area — components and jumper wires go here.
 
 **Analogy:** Imagine the breadboard as a neighborhood:
 - Houses in the same **column group** share the same plumbing (electrical connection).
