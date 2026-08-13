@@ -55,11 +55,11 @@ By the end of the bootcamp, you’ll be able to:
 
 | Day | Topics | Link |
 | --- | ------ | ---- |
-| Monday (8/17) | Basics of Coding, Arduino IDE, Variables, Motors, Loops | [Go to Day 1 →](./DayOne.md) |
-| Tuesday (8/18) | Servo Motors, Functions, Conditionals, Arrays | [Go to Day 2 →](./DayTwo.md) |
-| Wednesday (8/19) | Sensors, Libraries, Serial Monitor | [Go to Day 3 →](./DayThree.md) |
-| Thursday (8/20) | TinkerCAD, Circuit Lab, Final Build Help | [Go to Day 4 →](./DayFour.md) |
-| Friday (8/21) | In-Person: Upload, Test, and Demo Robot! | [Go to Day 5 →](./DayFive.md) |
+| Monday (8/17) | Basics of Coding, Arduino IDE, Variables, Motors, Loops | [Go to Day 1 →](https://github.com/nvengin1/WIE-Code-2026/blob/main/Daily%20Lessons/DayOne.md) |
+| Tuesday (8/18) | Servo Motors, Functions, Conditionals, Arrays | [Go to Day 2 →](https://github.com/nvengin1/WIE-Code-2026/blob/main/Daily%20Lessons/DayTwo.md) |
+| Wednesday (8/19) | Sensors, Libraries, Serial Monitor | [Go to Day 3 →](https://github.com/nvengin1/WIE-Code-2026/blob/main/Daily%20Lessons/DayThree.md) |
+| Thursday (8/20) | TinkerCAD, Circuit Lab, Final Build Help | [Go to Day 4 →](https://github.com/nvengin1/WIE-Code-2026/blob/main/Daily%20Lessons/DayFour.md) |
+| Friday (8/21) | In-Person: Upload, Test, and Demo Robot! | [Go to Day 5 →](https://github.com/nvengin1/WIE-Code-2026/blob/main/DayFiveActivities.md) |
 
 ---
 
