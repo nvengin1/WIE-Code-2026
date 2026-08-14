@@ -36,7 +36,7 @@ By the end of the bootcamp, you’ll be able to:
 ✅ Understand core programming concepts  
 ✅ Navigate and write code in the Arduino IDE  
 ✅ Use `if`, `for`, `while`, `functions`, and more  
-✅ Operate an Arduino board with motors, sensors, and LEDs, and more!
+✅ Operate an Arduino board with motors, sensors, and LEDs, and more!  
 ✅ Feel confident coding for your ENES100 robot  
 
 ---
@@ -92,4 +92,4 @@ By the end of this bootcamp, you will:
 
 ## Acknowledgment
 
-This boot camp was founded by **Sierra Raspa**, a former ENES100 Undergraduate Teaching Fellow, who recognized the gap in programming experience among women entering the engineering field. Her vision continues to shape this program, and her efforts remain the foundation of our mission to make coding more accessible, inclusive, and empowering for all.
+This boot camp was founded by **Sierra Raspa**, a former ENES100 Undergraduate Teaching Fellow, who recognized the gap in programming experience among women entering the engineering field. Her vision continues to shape this program, and her efforts remain the foundation of our mission to make coding more accessible, inclusive, and empowering for all. **Friedrich Alvarez** also significantly contributed to the program's curriculum development during his time as a WIE Code Facilitator.
