@@ -23,7 +23,9 @@ Before we can write code for Arduino, we need an **IDE** — the software where 
 
 - **IDE** = Integrated Development Environment — a coding workspace that combines a text editor, compiler, and upload/debug tools.
 - Examples: **Arduino IDE**, **VS Code**, **PyCharm**, **Eclipse**.
-- **In this workshop:** we’ll use the **Arduino IDE** because it’s lightweight, beginner-friendly, and designed for Arduino boards.
+- **In this workshop:** we’ll use the **TinkerCad ** during the virtual sessions to simulate interacting with an Arduino board.
+- We'll use **Arduino IDE** in person because it’s lightweight, beginner-friendly, and designed for Arduino boards.
+<img width="1116" height="578" alt="image" src="https://github.com/user-attachments/assets/d90e9c96-b756-4618-8039-f7f8837f9bf1" />
 
 <img width="1117" height="595" alt="image" src="https://github.com/user-attachments/assets/6707bd7c-1c73-4a8d-a5d7-8b38e6195f31" />
 
