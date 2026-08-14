@@ -22,12 +22,10 @@ Welcome to Day 1 of the WIE Coding Bootcamp! Today we will cover the fundamental
 Before we can write code for Arduino, we need an **IDE** — the software where we create, edit, and upload code to our microcontroller.
 
 - **IDE** = Integrated Development Environment — a coding workspace that combines a text editor, compiler, and upload/debug tools.
-- Examples: **VS Code**, **Arduino IDE**, **PyCharm**, **Eclipse**.
+- Examples: **Arduino IDE**, **VS Code**, **PyCharm**, **Eclipse**.
 - **In this workshop:** we’ll use the **Arduino IDE** because it’s lightweight, beginner-friendly, and designed for Arduino boards.
 
 <img width="1117" height="595" alt="image" src="https://github.com/user-attachments/assets/6707bd7c-1c73-4a8d-a5d7-8b38e6195f31" />
-
-<img width="1115" height="610" alt="image" src="https://github.com/user-attachments/assets/3685bd5b-c7a6-49ca-b194-43a2ca968996" />
 
 ---
 
@@ -95,7 +93,7 @@ Think of it as the “if this, then that” logic you already use every day:
 ### In Arduino Code
 ```cpp
 int lightLevel = analogRead(A0);  // read sensor value
-bool isDark = lightLevel < 300;
+bool isDark = lightLevel < 300;	// checks if lightLevel is less than 300, assigns true or false to bool isDark
 
 if (isDark && digitalRead(2) == HIGH) {
   // Turn on LED if it’s dark AND button is pressed
@@ -120,12 +118,14 @@ thousands of times per second.
 
 ###  Mini Breakout One:
 
-Given the example of the bouncer above and the sample Arduino code, write a series of conditional statements 
-(if, else if, else) to describe the bouncer's decisions. 
+Objective: Given the example of the bouncer above and the sample Arduino code, write a series of boolean expressions (&&, ||, !) to describe the bouncer's decisions. 
 
-Start by changing the variable names to be more descriptive (this is not necessary for functionality, but it's very good coding etiquette). 
-Then add an expression to the isAllowedIn variable assignment to calculate the desired result.
+1. Start by changing the variable names to be more descriptive (this is not necessary for functionality, but it's very good coding etiquette).
+1. Then choose values for the different variables (true or false) to test a possible scenario. Any values work!
+1. Finally, add an expression to the isAllowedIn variable assignment to calculate the desired result.
+   
 ```cpp
+void setup(){
   Serial.begin(9600); // open the serial port at 9600 bps:
   
   bool isAllowedIn;
@@ -136,7 +136,7 @@ Bouncer checks the following*/
 
 bool XXX; //guest list condition
 bool YYY; // proper shoes condition
-isAllowedIn; /*assign a new value to isAllowedIn using AND boolean operation*/ 
+isAllowedIn; /*write an expression to assign a new value to "isAllowedIn" using AND boolean operation*/ 
 
 //check the value of isAllowedIn
 Serial.print("\nIs this person allowed in?\t");
@@ -161,6 +161,10 @@ isAllowedIn; /*assign a new value to isAllowedIn using OR boolean operation*/
 //check the value of isAllowedIn
 Serial.print("\nIs this person allowed in?\t");
 Serial.print(isAllowedIn);
+}
+
+void loop(){
+}
 
 ```
 ---
@@ -230,17 +234,19 @@ void setup()
   Serial.begin(9600); // open the serial port at 9600 bps:
   
   //Mini Breakout Two
-  //Practice using different variable data types by generating
-  //information about someone trying to enter the event
+  //Practice using different variable data types by generating information about someone trying to enter the event
   
   //First name -- string
   String first = "John";
   Serial.print("\n\n");
   Serial.print(first);
-  
+
+  /* Using the example code above for the first name, define and assign values to the following variables: */
+
+
   //Last name -- string
 	
-  //Full name -- string (try to generate this using the previous two strings
+  //Full name -- string (try to generate this using the previous two strings)
     
   
   //Proper shoes -- bool
