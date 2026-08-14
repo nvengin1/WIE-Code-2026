@@ -161,10 +161,10 @@ Loops save time and make code flexible: change one number, and your Arduino coul
 **Goal: ** Create an Arduino sketch that uses a predefined test score and determines the student's letter grade using if, else if, and else statements.
 
 1. Create an integer variable called score.
-1. Give scorea predefined value, such as: int score = 85;
-1. Use if, else if, and elsestatements to determine the letter grade.
+1. Give score a predefined value, such as: int score = 85;
+1. Use if, else if, and else statements to determine the letter grade.
 1. Store the letter grade in a variable. 
-1. Use another if/elsestatement to determine whether the student passed. 
+1. Use another if/else statement to determine whether the student passed. 
 1. Use Serial.println()to display: 
    - The test score 
    - The letter grade 
