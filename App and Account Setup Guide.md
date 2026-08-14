@@ -2,10 +2,10 @@
 An integrated development environment (IDE) helps streamline the process of writing and executing code. It allows you to write, debug, compile, and run code in the same software, rather than using a text editor and the command line.
 
 # Arduino IDE Installation
-[Download the Arduino IDE](https://www.arduino.cc/en/software/)
+[Access the Arduino IDE Installer Here](https://www.arduino.cc/en/software/)
 
 Download Steps Windows: 
-1. Choose the first Windows download on the right
+1. Choose the first Windows download on the right (Version 2.3.1)
 2. Continue without donating, then click just download at the bottom
 3. An .exe file will download, open the file when it's ready
 4. Navigate through the setup wizard's instructions
@@ -13,9 +13,20 @@ Download Steps Windows:
 6. Once the download is finished, open the IDE
 7. It will likely ask for permission to make changes to your PC-- this is just so it can download the required packages and libraries. Click accept. 
 
+Download Steps Mac:
+1. Go to the Arduino IDE download page and choose the macOS download that matches your Mac.
+1. Continue without donating, then click Just Download at the bottom.
+1. A .dmg file will download. Open the file when the download is complete.
+1. Drag the Arduino IDE app into your Applications folder.
+1. Open your Applications folder and double-click Arduino IDE.
+1. If macOS asks whether you are sure you want to open the app, click Open.
+1. The IDE may ask for permission to access devices or install required components. Allow these permissions so the IDE can communicate with your Arduino and install the necessary packages and libraries.
+
 # TinkerCad Account Setup
 You will be able to join the WIE Code Bootcamp classroom with your name and access code as provided by Tabatha in the email. 
 A personal account should not be required, but it is encouraged. 
+
+TinkerCad will be your primary IDE during the virtual portion of WIECode.
 
 [Create a personal account on Tinkercad.](https://www.tinkercad.com/join) 
 
