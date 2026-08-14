@@ -157,20 +157,18 @@ Loops save time and make code flexible: change one number, and your Arduino coul
 
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/fb1a2216-e5be-4063-8e31-8ff09c92fde1" />
 
-### **Mini Breakout Activity 1 – Simple Button Control**
-**Goal:** Press the pushbutton to turn ON an LED, release to turn it OFF.  
-- Use `digitalRead()` to detect button press.
-- Use `digitalWrite()` to control the LED.
-- **Tip:** Try using both `INPUT` and `INPUT_PULLUP` modes to see the difference in logic.
+### **Mini Breakout Activity 1 – Grade Calculator**
+**Goal: ** Create an Arduino sketch that uses a predefined test score and determines the student's letter grade using if, else if, and else statements.
 
----
-<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/fb1a2216-e5be-4063-8e31-8ff09c92fde1" />
-
-### **Mini Breakout Activity 2 – If-Else LED Color Control**
-**Goal:** Two LEDs:  
-- If the button is pressed, the **red** LED turns ON and the **green** LED turns OFF.  
-- If not pressed, the **green** LED turns ON and the **red** LED turns OFF.  
-- This reinforces `if` vs. `else` control.
+1. Create an integer variable called score.
+1. Give scorea predefined value, such as: int score = 85;
+1. Use if, else if, and elsestatements to determine the letter grade.
+1. Store the letter grade in a variable. 
+1. Use another if/elsestatement to determine whether the student passed. 
+1. Use Serial.println()to display: 
+   - The test score 
+   - The letter grade 
+   - Whether the student passed 
 
 --- 
 
@@ -471,7 +469,7 @@ for (int i = 0; i < 4; i++) {
   ```
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/fb1a2216-e5be-4063-8e31-8ff09c92fde1" />
 
-### **Mini Breakout Activity 4 – For-Loop LED Chase**
+### **Mini Breakout Activity 2 – For-Loop LED Chase**
 **Goal:** Create a “running light” effect across **4 LEDs**.  
 - Use a `for` loop to turn them ON in sequence, then OFF in sequence.  
 - Add a small `delay()` so the movement is visible.  
@@ -818,7 +816,23 @@ These challenges are designed so you can complete them in TinkerCAD, using an Ar
 
 ---
 
-### **Activity 1 – If-Else-If Pattern Challenge**
+
+### **Activity 3 – Simple Button Control**
+**Goal:** Press the pushbutton to turn ON an LED, release to turn it OFF.  
+- Use `digitalRead()` to detect button press.
+- Use `digitalWrite()` to control the LED.
+- **Tip:** Try using both `INPUT` and `INPUT_PULLUP` modes to see the difference in logic.
+
+
+
+### **Activity 2 – If-Else LED Color Control**
+**Goal:** Two LEDs:  
+- If the button is pressed, the **red** LED turns ON and the **green** LED turns OFF.  
+- If not pressed, the **green** LED turns ON and the **red** LED turns OFF.  
+- This reinforces `if` vs. `else` control.
+
+
+### **Activity 3 – If-Else-If Pattern Challenge**
 **Goal:**  
 - Use **three LEDs** (red, yellow, green).  
 - Press the button **once** → only red LED ON.  
@@ -829,7 +843,7 @@ These challenges are designed so you can complete them in TinkerCAD, using an Ar
 
 ---
 
-### **Activity 2 – Morse Code Button Press**
+### **Activity 4 – Morse Code Button Press**
 **Goal:**  
 - Use the **built-in LED** to flash “SOS” in Morse code (`... --- ...`).  
 - Button press starts the sequence; releasing stops it.  
@@ -837,7 +851,7 @@ These challenges are designed so you can complete them in TinkerCAD, using an Ar
 
 ---
 
-### **Activity 3 – The Pushbutton Memory Game**
+### **Activity 5 – The Pushbutton Memory Game**
 **Goal:**  
 - Arduino shows a sequence of LEDs lighting up (like Simon Says).  
 - Use `for` loops to create the sequence.  
@@ -846,7 +860,7 @@ These challenges are designed so you can complete them in TinkerCAD, using an Ar
 
 ---
 
-### **Activity 4 – Button + LED Dimming**
+### **Activity 6 – Button + LED Dimming**
 **Goal:**  
 - Connect an LED to a PWM pin (like Pin 9).  
 - Each button press increases LED brightness by 50 (0–255 scale).  
