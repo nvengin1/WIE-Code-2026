@@ -286,11 +286,12 @@ These are the **entry points** where your code runs — without them, your progr
 - Contains the **main behavior** of your program.
 - Think of it as “the ongoing event” — repeating the same set of actions until something changes.
 
+<img width="238" height="282" alt="image" src="https://github.com/user-attachments/assets/db0a4798-3f82-4c5d-897c-2ccc6076f113" />
 
-<img width="311" height="181" alt="image" src="https://github.com/user-attachments/assets/1851eb64-9034-448d-959a-a53ab32354cc" />
+- _Diagram of Arduino program flow: Power on → setup() once → loop() repeats._  
+- _Side-by-side example: setup() = setting the stage, loop() = the performance repeating._
 
 ---
-
 ### 5.2 Program Flow
 1. Arduino powers up or is reset.
 2. Code inside `setup()` runs **one time**.
@@ -375,12 +376,6 @@ void loop() {
 
 ---
 
-<img width="238" height="282" alt="image" src="https://github.com/user-attachments/assets/db0a4798-3f82-4c5d-897c-2ccc6076f113" />
-
-- _Diagram of Arduino program flow: Power on → setup() once → loop() repeats._  
-- _Side-by-side example: setup() = setting the stage, loop() = the performance repeating._
-
----
 
 ## 6. Introduction to `digitalWrite()`, `delay()`, `pinMode()`, and `analogWrite()`
 
@@ -546,11 +541,11 @@ void loop() {
 <img width="741" height="339" alt="image" src="https://github.com/user-attachments/assets/abb17aa0-02ef-455d-bf40-6064dbced825" />
 
 ## Exploring Circuits
-After singing in to TinkerCAD, you will find a dashboard of your recent designs (if any). You will find the **Circuits** section under **3D Designs**. 
+After signing in to TinkerCAD, you will find a dashboard of your recent designs (if any). You will find the **Circuits** section under **3D Designs**. 
 
 <img width="760" height="473" alt="image" src="https://github.com/user-attachments/assets/ef95f455-b0b0-41e1-a715-1826e353b7f5" />
 
-While on your dashboard, you can scroll through your existing 3D, Codeblocks or Circuits designs. You can also create a new design by clicking the blue + New button in the upper right hand corner of the dashboard and selecting the editor you'd like to open.
+While on your dashboard, you can scroll through your existing 3D, Codeblocks, or Circuits designs. You can also create a new design by clicking the blue + New button in the upper right hand corner of the dashboard and selecting the editor you'd like to open.
 
 Tinkercad’s Circuits editor has a similar layout to its 3D design editor. You’ll find a large window on the left for creating your design. On the right side you’ll see a panel filled with components you can drag and drop into the workspace to create your circuit. 
 
