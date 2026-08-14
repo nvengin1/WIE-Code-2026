@@ -477,15 +477,6 @@ for (int i = 0; i < 4; i++) {
 
 ---
 
-<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/fb1a2216-e5be-4063-8e31-8ff09c92fde1" />
-
-### **Mini Breakout Activity 5 – While-Loop Hold**
-**Goal:** While the button is pressed, make an LED blink rapidly.  
-- Use a `while` loop so blinking continues until the button is released.
-- **Tip:** Be careful to avoid locking the Arduino in the loop forever.
-
----
-
 
 
 # 3. Coding Etiquette — Commenting, Indentation, Naming
