@@ -141,20 +141,6 @@ These will always evaluate to 0 or 1, depending on whether the condition is true
 
 ---
 
-## 1.2 Loops — Repeating Without Copy–Paste
-
-**What are they?**  
-Loops let your Arduino run the same block of instructions multiple times without writing the same code over and over.
-
-Telling a kid to “jump rope 10 times” vs. telling them “jump rope” 10 separate times in a row. One is efficient; one wastes breath.
-
-A washing machine runs cycles — wash, rinse, spin — and repeats certain actions automatically. That’s a loop in real life.
-
-**Why important?**  
-Loops save time and make code flexible: change one number, and your Arduino could blink 3 times instead of 30.
-
----
-
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/fb1a2216-e5be-4063-8e31-8ff09c92fde1" />
 
 ### **Mini Breakout Activity 1 – Grade Calculator**
@@ -320,6 +306,20 @@ The function uses an if/else statement to check if the score is at least 70. If 
 
 > Loops let your Arduino repeat actions **without** copy–pasting code.
 > Think of them as a **metronome**: they count beats (iterations) and tell your code what to do on each beat.
+
+---
+
+## 1.2 Loops — Repeating Without Copy–Paste
+
+**What are they?**  
+Loops let your Arduino run the same block of instructions multiple times without writing the same code over and over.
+
+Telling a kid to “jump rope 10 times” vs. telling them “jump rope” 10 separate times in a row. One is efficient; one wastes breath.
+
+A washing machine runs cycles — wash, rinse, spin — and repeats certain actions automatically. That’s a loop in real life.
+
+**Why important?**  
+Loops save time and make code flexible: change one number, and your Arduino could blink 3 times instead of 30.
 
 ---
 
