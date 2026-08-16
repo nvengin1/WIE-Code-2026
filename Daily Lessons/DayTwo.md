@@ -309,7 +309,7 @@ The function uses an if/else statement to check if the score is at least 70. If 
 
 ---
 
-## 1.2 Loops — Repeating Without Copy–Paste
+## Loops — Repeating Without Copy–Paste
 
 **What are they?**  
 Loops let your Arduino run the same block of instructions multiple times without writing the same code over and over.
