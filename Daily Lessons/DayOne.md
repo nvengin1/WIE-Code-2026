@@ -2,6 +2,7 @@
 
 Welcome to Day 1 of the WIE Coding Bootcamp! Today we will cover the fundamentals of how coding interacts with hardware using the Arduino Microcontroller. This day is foundational — we’ll focus on programming structure, hardware concepts, and controlling simple outputs like LEDs and motors.
 
+
 ---
 
 ## 1. Basics of Coding & Programming Languages
@@ -30,6 +31,27 @@ Before we can write code for Arduino, we need an **IDE** — the software where 
 <img width="1117" height="595" alt="image" src="https://github.com/user-attachments/assets/6707bd7c-1c73-4a8d-a5d7-8b38e6195f31" />
 
 ---
+
+## What will you know by the end of the week?
+
+From how computer programming logic flows, to coding syntax, to communicating with sensors and other peripherals, this week's packed. 
+Here's a quick demo of what integrating this week's topics could look like! 
+
+<img width="226" height="223" alt="image" src="https://github.com/user-attachments/assets/285bbf51-8a04-48e5-92e4-b946916cd03a" />
+
+
+### Today’s Roadmap
+1. **Arduino Microcontroller Basics** – Understand the system you're working with.  
+2. **Boolean Logic** – How the microcontroller evaluates expressions and makes decisions.  
+3. **Variables** – Formats of data and information the microcontroller processes.  
+4. **Arduino Sketch Format** – Required code structure and basic syntax.  
+5. **Native Arduino Functions** – Critical to interfacing with peripherals like sensors. 
+
+## A Note about AI 
+
+When you’re learning to code for the first time, the most important part is learning how to think like a programmer. Writing code yourself helps you develop problem-solving skills, understand how scripts actually work, and learn to debug when things go wrong. AI can give you a quick answer, but relying on it too soon will only hinder your own growth. 
+
+**Learn to think like a programmer first. Once you have the skills to understand and evaluate what it suggests, then you can use AI as a tool.**
 
 ## 2. What is the Arduino Microcontroller and How Does it Run Code?
 
@@ -117,6 +139,8 @@ Imagine Boolean logic as a bouncer at a club:
 Just like the bouncer makes quick **yes/no** decisions at the door,
 your Arduino makes quick **true/false** decisions in your circuits —
 thousands of times per second.
+
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/fb1a2216-e5be-4063-8e31-8ff09c92fde1" />
 
 ###  Mini Breakout One:
 
@@ -226,8 +250,11 @@ void loop() {
   delay(delayTime);           // wait half a second
 }
 ```
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/fb1a2216-e5be-4063-8e31-8ff09c92fde1" />
 
 ### Mini Breakout Two
+**Objective:** Imagine you are checking someone in at an event. Using the first name example as a model, define and assign values to the remaining variables in the sketch. Try thinking about how variables can work together to generate new information, and don't forget to print their values to the serial monitor!
+
 ```cpp
   // C++ code
 //
@@ -391,8 +418,17 @@ These are the “verbs” of Arduino — they **do** things.
 **What it does:**  
 Tells Arduino whether a pin will be used as an **input** or an **output**.
 
-- **INPUT** – read information (button, sensor, etc.)
-- **OUTPUT** – send a signal (turn on LED, move motor, etc.)
+#### Function Prototype
+
+
+<img width="266" height="62" alt="image" src="https://github.com/user-attachments/assets/053bc827-940f-4d9f-8993-e9678a88f9c6" />
+
+**Parameters:**
+- **pin**: the Arduino pin number to set the mode of
+	- Allowed Data types: int
+- **mode**:  mode options
+	- **INPUT** – read information (button, sensor, etc.)
+	- **OUTPUT** – send a signal (turn on LED, move motor, etc.)
 
 **Why it’s needed:**  
 Pins are like doors — `pinMode()` tells Arduino if the door should be **open to receive things** (input) or **open to send things out** (output).
@@ -420,8 +456,14 @@ Think of a water pipe — you have to decide if it’s going to **let water in**
 **What it does:**  
 Sets a digital pin to **HIGH** (on) or **LOW** (off).
 
-- **HIGH** – sends 5V (or 3.3V on some boards)
-- **LOW** – sends 0V (ground)
+#### Function Prototype
+<img width="324" height="62" alt="image" src="https://github.com/user-attachments/assets/9c2da0f9-b22b-4ffc-8c83-1c1fe151fde5" />
+
+**Parameters:**
+- **pin**: the Arduino pin number to be controlled.
+- **value**: pin options
+	- **HIGH** – sends 5V (or 3.3V on some boards)
+	- **LOW** – sends 0V (ground)
 
 **Why it’s needed:**  
 It’s how you actually control devices like LEDs, buzzers, or relays.
@@ -452,6 +494,9 @@ Like flipping a light switch — either the light is ON or it’s OFF, no in-bet
 **What it does:**  
 Pauses the program for a certain number of **milliseconds** (1000 ms = 1 second).
 
+<img width="165" height="61" alt="image" src="https://github.com/user-attachments/assets/1f803d60-68cd-4259-979a-949c57652fc5" />
+
+
 **Why it’s needed:**  
 Without delays, your Arduino executes code **extremely fast** — so fast you might not see changes or allow hardware to react.
 
@@ -477,13 +522,19 @@ Like telling someone, “Clap your hands, then wait 2 seconds before clapping ag
 
 ### 6.4 `analogWrite()`
 
-<img width="566" height="246" alt="image" src="https://github.com/user-attachments/assets/7aeb9699-aaee-43d5-bcc0-fe10627d45bc" />
-
 **What it does:**  
 Sends an **analog-like signal** using **PWM (Pulse Width Modulation)** on pins marked with a `~` on the Arduino board.
-
-- Values range from **0** (off) to **255** (fully on).
 - Controls brightness of LEDs or speed of motors.
+
+#### Function Prototype
+<img width="300" height="75" alt="image" src="https://github.com/user-attachments/assets/2151abb2-824c-4f4c-8369-ba3d181ff9c6" />
+
+**Parameters:**
+- **pin**: the Arduino pin to output the PWM signal.
+- **value**: the duty cycle: between 0 (always off) and 255 (always on).
+
+  
+<img width="300" height="350" alt="image" src="https://github.com/user-attachments/assets/c0067942-7c50-4a62-aae2-c1eb02b60bf7" />
 
 **Why it’s needed:**  
 Some devices aren’t just “on or off” — you may want *half brightness* or *half speed*.
@@ -551,7 +602,7 @@ While on your dashboard, you can scroll through your existing 3D, Codeblocks, or
 
 Tinkercad’s Circuits editor has a similar layout to its 3D design editor. You’ll find a large window on the left for creating your design. On the right side you’ll see a panel filled with components you can drag and drop into the workspace to create your circuit. 
 
-<img width="698" height="404" alt="image" src="https://github.com/user-attachments/assets/30ca4ad3-87ab-4f5c-878b-4e395e76eaf4" />
+<img width="760" height="375" alt="image" src="https://github.com/user-attachments/assets/d90e9c96-b756-4618-8039-f7f8837f9bf1" />
 
 Unlike Tinkercad’s 3D design editor, the workspace in Circuits is two-dimensional. You can move your components around by selecting and dragging them, or pan the view around your design by clicking and dragging the empty space around it.
 
@@ -560,6 +611,7 @@ You can also zoom in and out of your design by using the scroll wheel on your mo
 A “Zoom to fit” button is located in the top left corner of the workspace, which will center and zoom your design to fill the window. Pressing the letter F on your keyboard works as a handy shortcut for this same command.
 
 ---
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/fb1a2216-e5be-4063-8e31-8ff09c92fde1" />
 
 ## Challenge: PWM Dimming + Morse Code “HELLO”
 
