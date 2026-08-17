@@ -35,9 +35,11 @@ Before we can write code for Arduino, we need an **IDE** — the software where 
 ## What will you know by the end of the week?
 
 From how computer programming logic flows, to coding syntax, to communicating with sensors and other peripherals, this week's packed. 
-Here's a quick demo of what integrating this week's topics could look like! 
+Here's a quick demo of what integrating this week's topics could look like! Follow along on the meeting display, and you can use this link to go back and tinker the circuit later.
 
-<img width="226" height="223" alt="image" src="https://github.com/user-attachments/assets/285bbf51-8a04-48e5-92e4-b946916cd03a" />
+Link: https://www.tinkercad.com/things/kltNBy7eQCl-motor-and-potentiometer-circuit?sharecode=nT1EF4f-niDSNyuwL4UD6LiXpjY-NROjYwOYSHHs3J0
+
+<img width="959" height="487" alt="image" src="https://github.com/user-attachments/assets/02bcc8ba-59ab-46c3-b768-183d08f9a463" />
 
 
 ### Today’s Roadmap
