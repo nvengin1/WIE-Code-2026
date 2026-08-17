@@ -158,7 +158,7 @@ These will always evaluate to 0 or 1, depending on whether the condition is true
 
 --- 
 
-## 1.3 Functions — Reusable Mini-Programs
+## 1.2 Functions — Reusable Mini-Programs
 
 **What are they?**  
 A function is a named block of code you can "call" whenever you need it.
@@ -195,7 +195,7 @@ Built-in Arduino Functions:
 
 ---
 
-## 1.4 Arrays — Keeping Many Things in One Box
+## 1.3 Arrays — Keeping Many Things in One Box
 
 **What are they?**  
 Arrays let you store multiple values of the same type under one name.
@@ -229,7 +229,7 @@ char message[6] = "hello";
 
 ---
 
-## 1.5 Strings — Handling Text
+## 1.4 Strings — Handling Text
 
 **What are they?**  
 Strings store text like `"Hello"` or `"Arduino"`.  
@@ -253,7 +253,7 @@ String stringOne = String(stringTwo + " with more");  // concatenating two strin
 ```
 ---
 
-## 1.6 Very Basic Code Example
+## 1.5 Very Basic Code Example
 
 ### Full Example 
 
@@ -808,7 +808,7 @@ These challenges are designed so you can complete them in TinkerCAD, using an Ar
 ---
 
 
-### **Activity 3 – Simple Button Control**
+### **Activity 1 – Simple Button Control**
 **Goal:** Press the pushbutton to turn ON an LED, release to turn it OFF.  
 - Use `digitalRead()` to detect button press.
 - Use `digitalWrite()` to control the LED.
