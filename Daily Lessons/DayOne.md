@@ -41,6 +41,7 @@ Link: https://www.tinkercad.com/things/kltNBy7eQCl-motor-and-potentiometer-circu
 
 <img width="959" height="487" alt="image" src="https://github.com/user-attachments/assets/02bcc8ba-59ab-46c3-b768-183d08f9a463" />
 
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/bfa48d9a-e659-4b71-aea5-b4bd1ad5775d" />
 
 ### Today’s Roadmap
 1. **Arduino Microcontroller Basics** – Understand the system you're working with.  
