@@ -33,6 +33,11 @@ Three main I/O pin types on Arduino Uno:
 * 14 Digital I/O pins – can read or send ON/OFF signals (HIGH/LOW)
 * Of the 14 Digital I/O pins, 6 pins (3, 5, 6, 9, 10, and 11) support PWM
 
+### Day One Breakout Answer
+
+* We'll briefly review the answer to yesterday's final challenge. You can access the answer key here using this link: https://www.tinkercad.com/things/3zYG73bwNsr-answer-day-one-breakout-activities?sharecode=DGQDc3OfX0LIYDzO9fu9MODhKLzYA5ZA5OxV-EhnTlU
+* Keep in mind that both Part A and B are in the same loop(), which means that the 500 ms delay as per the Part A instructions won't work correctly. You can fix this by commenting out either Part A or B code, based on whichever part you want to test.
+
 
 ****
 > Today, we’re going beyond simply turning things on and off — we’ll learn how to make your Arduino **think, decide, repeat tasks, and stay organized**.
