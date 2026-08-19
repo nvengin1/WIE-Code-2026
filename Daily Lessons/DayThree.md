@@ -43,7 +43,9 @@ Challenge Activity 2:
 
 
 Challenge Activitiy 3:
+
 <img width="725" height="453" alt="image" src="https://github.com/user-attachments/assets/fe4c5a32-4c5d-4a04-b376-6771e0b7ae18" />
+
 [One example of an answer](https://www.tinkercad.com/things/59vscu5CYRS-natalies-day-two-breakout-challenge?sharecode=LGzh3vHulsi5dWSak7tsl7-3molAPc1lFnSRABtyvcg)
 
 
