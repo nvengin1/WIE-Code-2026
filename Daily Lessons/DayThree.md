@@ -508,8 +508,8 @@ void setup() {
 }
 
 void loop() {
-  int wiper = analogRead(wiper); // 0 to 1023
-  float voltage = (potValue / 1023.0) * 5.0; // Convert to volts
+  int wiper = analogRead(potPin); // 0 to 1023
+  float voltage = (wiper / 1023.0) * 5.0; // Convert to volts
 
   Serial.print("Wiper Value: ");
   Serial.print(wiper);
