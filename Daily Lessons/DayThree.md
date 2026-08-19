@@ -23,6 +23,10 @@ Code Example
 
 <img width="899" height="279" alt="{EA514AC0-49CC-4D66-9BDB-29A4A93C2908}" src="https://github.com/user-attachments/assets/8866761f-fefa-4d30-a20d-1907fe4c6682" />
 
+## Answer to Day 2 Breakout Activity 1: Grade Calculator
+  
+- Link: https://www.tinkercad.com/things/dZ94VhISOas-answer-day-two-breakout-activity-1?sharecode=VK9IhCP9G2VyEKip0vs12gAjKPLY0vBzWAmhvqY63eE
+
 ---
 
 ### For and While Loops
@@ -33,6 +37,10 @@ While Loop
 For Loops
 
 <img width="370" height="400" alt="image" src="https://github.com/user-attachments/assets/53ce1e63-df4b-4316-b3d0-123ba6065ef7" />
+
+## Answer to Day 2 Breakout Activity 2: LED Chase
+  
+- Link: https://www.tinkercad.com/things/jrLOnYYsxRT-answer-day-two-breakout-activity-2?sharecode=chkSVFOL__YT_FBvR5bqKtPnzyKjBcDj1MiKoC1x7_U
 
 
 ---
