@@ -45,16 +45,16 @@ For Loops
 
 ---
 
-### Challenge Breakout Review
+## Challenge Breakout Review
 
-## Challenge Activity 2:
+### Challenge Activity 2:
 
 <img width="719" height="365" alt="image" src="https://github.com/user-attachments/assets/41180a5f-eccc-4cc6-b099-d7de6f070c1a" />
 
 [Link to Tinkercad Example](https://www.tinkercad.com/things/lYCchRAz93X-answer-day-two-final-pushbutton-activity-2?sharecode=x6gkNSv5DvTOJzfFPySJo4MrOdutfKhSGtOGVnMIZZ4)
 
 
-## Challenge Activitiy 3:
+### Challenge Activity 3:
 
 <img width="725" height="453" alt="image" src="https://github.com/user-attachments/assets/fe4c5a32-4c5d-4a04-b376-6771e0b7ae18" />
 
