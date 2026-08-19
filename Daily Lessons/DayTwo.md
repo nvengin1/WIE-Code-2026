@@ -840,6 +840,8 @@ These challenges are designed so you can complete them in TinkerCAD, using an Ar
 - Then cycle back to red.  
 - **Hint:** You’ll need a variable to keep track of button presses.
 
+[One example of an answer](https://www.tinkercad.com/things/59vscu5CYRS-natalies-day-two-breakout-challenge?sharecode=LGzh3vHulsi5dWSak7tsl7-3molAPc1lFnSRABtyvcg)
+
 ---
 
 ### **Activity 4 – Morse Code Button Press**
