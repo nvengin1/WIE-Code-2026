@@ -694,7 +694,8 @@ All activities will be simulated in **TinkerCAD Circuits**.
 2. Map potentiometer range (0–1023) to servo angles (0–180).
 3. Turn the knob to move the servo in real time.
 
-[One example of a possible implementation](https://www.tinkercad.com/things/bWrXTLg3Sxe-natalies-day-3-breakout-challenge-1?sharecode=ukni8TyHDH7KMcF_BMSELeYtCP0_nrlol5UaoDq8FPc)
+[One example of a possible implementation](https://www.tinkercad.com/things/bWrXTLg3Sxe-natalies-day-3-potentiometer-controlled-servo-challenge?sharecode=ukni8TyHDH7KMcF_BMSELeYtCP0_nrlol5UaoDq8FPc)
+
 ---
 
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/5bc35294-32f0-4ec3-bd18-d9de2f612fb6" />
@@ -708,6 +709,7 @@ All activities will be simulated in **TinkerCAD Circuits**.
    - Move servo to 90° (open).
 3. Otherwise, keep servo at 0° (closed).
 
+[One example of a possible implementation](https://www.tinkercad.com/things/bcv3ChlYoWN-natalies-day-3-ultrasonic-controlled-servo-challenge?sharecode=P8ELYKh2Ax-SJi1FHGYK5mOfEtZkt84xQaCED9PsRdE)
 
 ---
 
