@@ -67,7 +67,7 @@ If you put an **`f`** at the end, it tells the compiler:
 > "Make this a **float** instead of a double."
 
 Why use `float` here?
-- `float` uses less memory (4 bytes instead of 8).
+- `float` uses less memory (4 bytes instead of 8). 
 - Many Arduino math functions are optimized for `float`.
 - It avoids mixing `float` and `double` types, which can cause the Arduino to do extra work.
 
