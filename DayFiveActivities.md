@@ -39,9 +39,6 @@ Welcome to **Day 5**! Today is all practice: wiring, testing, and writing your o
 
 [Spotify Playlist :)](https://open.spotify.com/playlist/5BLxHElBozArriQTfqkkeL?si=dMy99QbcSZytVG68AI3t5w&utm_source=copy-link&pi=1w4KVaNRTSidS)
 
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/82540f13-b007-4545-96ba-0a6cc3530a07" />
-
-
 ---
 
 # Driving the Robot
