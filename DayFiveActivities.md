@@ -1,6 +1,5 @@
 Welcome to **Day 5**! Today is all practice: wiring, testing, and writing your own code based on what you learned in Days 1–4. Each activity below gives you a **goal**, **what to build**, and **checks** to know you’re done. Keep your wiring tidy, label your pins in comments, and test often.
 
-[Spotify Playlist :)](https://open.spotify.com/playlist/5BLxHElBozArriQTfqkkeL?si=dMy99QbcSZytVG68AI3t5w&utm_source=copy-link&pi=1w4KVaNRTSidS)
 
 ## Activity 1 — 3 LEDs (Practice with Outputs)
 **Goal:** Wire 3 LEDs (each with a resistor) to three digital pins and write your own blink patterns.
@@ -36,6 +35,12 @@ Welcome to **Day 5**! Today is all practice: wiring, testing, and writing your o
 ## Bonus Ideas
 - Reuse and adapt your **Tinkercad** code from earlier lessons for these real-hardware prompts.
 - Try different thresholds, step sizes, and LED patterns; observe behavior live and iterate quickly.
+
+
+[Spotify Playlist :)](https://open.spotify.com/playlist/5BLxHElBozArriQTfqkkeL?si=dMy99QbcSZytVG68AI3t5w&utm_source=copy-link&pi=1w4KVaNRTSidS)
+
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/82540f13-b007-4545-96ba-0a6cc3530a07" />
+
 
 ---
 
