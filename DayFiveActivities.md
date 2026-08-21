@@ -39,6 +39,9 @@ Welcome to **Day 5**! Today is all practice: wiring, testing, and writing your o
 
 # Driving the Robot
 
+### Check out this link: https://github.com/ArtMil86/ECE-IEEE-Summer-Workshop
+
+
 ### Things to know
 
 ## 🔌 Pinout Table
