@@ -1,5 +1,7 @@
 Welcome to **Day 5**! Today is all practice: wiring, testing, and writing your own code based on what you learned in Days 1–4. Each activity below gives you a **goal**, **what to build**, and **checks** to know you’re done. Keep your wiring tidy, label your pins in comments, and test often.
 
+Link to install the driver: https://docs.keyestudio.com/projects/KS0559/en/latest/docs/3.%20Driver%20installation/3.%20Driver%20installation.html#
+
 
 ## Activity 1 — 3 LEDs (Practice with Outputs)
 **Goal:** Wire 3 LEDs (each with a resistor) to three digital pins and write your own blink patterns.
